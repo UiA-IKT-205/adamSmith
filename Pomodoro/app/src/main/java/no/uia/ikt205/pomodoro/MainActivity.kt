@@ -30,11 +30,16 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //  setContentView(R.layout.activity_main)
-        // startButton = findViewById<Button>(R.id.startCountdownButton)
+        setContentView(R.layout.activity_main)
+        startButton = findViewById<Button>(R.id.startCountdownButton)
         startButton.setOnClickListener() {
             startCountDown(it)
         }
+
+        coutdownDisplay = findViewById(R.id.countDownView)
+
+        //val Timeduration = listOf<Button>(findViewById<Button>(R.id.button30),
+
         //Her ifra og videre blir funksjoner til knappene 30,60,90,120 minutter
         timerB30 = findViewById<Button>(R.id.button30)
         timerB60 = findViewById<Button>(R.id.button60)
