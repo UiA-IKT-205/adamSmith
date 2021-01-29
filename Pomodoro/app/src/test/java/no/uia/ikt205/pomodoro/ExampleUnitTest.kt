@@ -1,6 +1,7 @@
 package no.uia.ikt205.pomodoro
 
 import no.uia.ikt205.pomodoro.util.millisecondsToDescriptiveTime
+import no.uia.ikt205.pomodoro.util.minutesToMilliSeconds
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -14,6 +15,11 @@ class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
+    }
+
+    @Test
+    fun testMinuteToMsConvertsion(){
+        assertEquals(60000, minutesToMilliSeconds(1))
     }
 
     @Test

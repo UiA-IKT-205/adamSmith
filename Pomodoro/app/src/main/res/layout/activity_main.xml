@@ -47,7 +47,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/countDownView"
-            app:layout_constraintHorizontal_bias="0.65"
+            app:layout_constraintHorizontal_bias="0.349"
             app:layout_constraintVertical_bias="0.204" />
 
     <Button
@@ -59,7 +59,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/countDownView"
-            app:layout_constraintHorizontal_bias="0.356"
+            app:layout_constraintHorizontal_bias="0.65"
             app:layout_constraintVertical_bias="0.204" />
 
     <Button
