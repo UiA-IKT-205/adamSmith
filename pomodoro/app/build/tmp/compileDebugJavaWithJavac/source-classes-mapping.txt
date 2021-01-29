@@ -1,0 +1,2 @@
+no/uia/ikt205/pomodoro/BuildConfig.java
+ no.uia.ikt205.pomodoro.BuildConfig
