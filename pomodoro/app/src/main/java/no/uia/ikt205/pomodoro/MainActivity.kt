@@ -94,7 +94,6 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
-        if 
         v.isEnabled = false
         timer.start()
     }
