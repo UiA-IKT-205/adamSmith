@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Piano</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_of_song">Name of song</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+</resources>
