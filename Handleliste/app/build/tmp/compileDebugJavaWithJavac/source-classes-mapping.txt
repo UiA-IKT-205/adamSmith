@@ -1,0 +1,2 @@
+com/example/todolistapp/BuildConfig.java
+ com.example.todolistapp.BuildConfig
