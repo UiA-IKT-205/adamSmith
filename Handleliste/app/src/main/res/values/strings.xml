@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToDoListApp</string>
+    <string name="super_list">SUPER LIST</string>
+    <string name="din_siste_liste">Din siste liste</string>
+</resources>
